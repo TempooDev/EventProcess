@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventProcess.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3453c1b4339f0b7c4fa87d74e2365ad937036615")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+658e35ec280f0e30a84be056a1e63932d37ba948")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventProcess.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventProcess.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
