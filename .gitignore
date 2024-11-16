@@ -433,3 +433,5 @@ FodyWeavers.xsd
 
 # Python virtual environment files
 **/.venv/*
+src/EventProcess.Web/obj/Debug/net8.0/EventProcess.Web.AssemblyInfo.cs
+src/EventProcess.Web/obj/Debug/net8.0/EventProcess.Web.AssemblyInfoInputs.cache
