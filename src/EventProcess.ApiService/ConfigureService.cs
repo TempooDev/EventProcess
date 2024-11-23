@@ -8,6 +8,9 @@ public static class ConfigureServices
 {
     public static void AddServices(this WebApplicationBuilder builder)
     {
+        builder.AddServiceDefaults();
+        builder.Services.AddProblemDetails();
+
         builder.AddSerilog();
         builder.AddSwagger();
         builder.Services.AddValidatorsFromAssembly(typeof(ConfigureServices).Assembly);
