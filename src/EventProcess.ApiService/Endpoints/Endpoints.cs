@@ -34,10 +34,10 @@ public static class Endpoints
         var endpoints = app.MapGroup("/posts")
             .WithTags("Posts");
 
-        // endpoints.MapPublicGroup()
-        //     .MapEndpoint<GetPosts>()
-        //     .MapEndpoint<GetPostById>()
-        //     .MapEndpoint<GetPostComments>();
+        endpoints.MapPublicGroup()
+            .MapEndpoint<GetPosts>();
+            // .MapEndpoint<GetPostById>()
+            // .MapEndpoint<GetPostComments>();
 
         // endpoints.MapAuthorizedGroup()
         //     .MapEndpoint<CreatePost>()

@@ -10,12 +10,15 @@ public static class ConfigureServices
     {
         builder.AddServiceDefaults();
         builder.Services.AddProblemDetails();
-
+        builder.AddDatabasae();
         builder.AddSerilog();
         builder.AddSwagger();
         builder.Services.AddValidatorsFromAssembly(typeof(ConfigureServices).Assembly);
     }
-
+    private static void AddDatabase(this WebApplicationBuilder builder)
+    {
+        builder.AddNpgsqlDbContext<PostDbContext>(connectionName: "postdb");
+    }
     private static void AddSwagger(this WebApplicationBuilder builder)
     {
         builder.Services.AddEndpointsApiExplorer();
